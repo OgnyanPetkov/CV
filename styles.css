@@ -1,0 +1,53 @@
+body {
+    background-image: url(geometric.jpg);
+    margin: 0px;
+    }
+
+.top_box {
+    font-family: Arial, "Noto Sans", sans-serif;
+    margin: 2% 0% 2% 0%;
+    padding: 1%;
+    background-color: #222831;
+    border-radius: 30px;
+    color: #ffd369;
+    text-align: center;
+    font-size: 400%;
+    overflow: hidden;
+    }
+
+.about_me {
+    font-family: Arial, "Noto Sans", sans-serif;
+    margin: 2% 0% 2% 0%;
+    padding: 20px;
+    background-color: #222831;
+    border-radius: 30px;
+    color: #ffd369;
+    text-align: center;
+    font-size: 400%;
+    overflow: hidden;
+}
+
+td, th {
+    text-align: center;
+}
+
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #ffd369;
+    border-width: 10em;
+    width: 25%;
+    min-width: 10em;
+    }
+
+h1, h2, h3 {
+    margin-top: 0;
+    color: #393e46
+    font-weight: 700;
+
+}
