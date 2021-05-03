@@ -3,26 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <title>Ognyan's personal site</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="favicon.ico">
     </head>
     <body>
-        <img src="images/Profile Picture.png", height="100">
-        <h1>Ognyan Petkov</h1>
-        <p>
-            <em>E-mail:<strong>ogikrpetkov@gmail.com</strong></em> <br>
-            <a href="https://www.linkedin.com/in/ognyan-petkov/">
-                <img src="images/linkedin.svg", height="35"></a>
-            <a href="https://github.com/OgnyanPetkov"><img src="images/GitHub.png", height="37"></a>
-        </p>
-        <p>Currently, doing MSc in <em>Optics and Spectroscopy</em> in Sofia University. I am working as physics teacher in high
-            school and technical assistant in The Bulgarian Academy of Sciences.</p>
-        <hr>
+    <div class="top_box">
+            <img src="images/Profile Picture.png" height="auto" width="auto">
+            <h1>Ognyan Petkov</h1>
+        <nav>
+            <a href="https://www.linkedin.com/in/ognyan-petkov/"><img src="images/linkedin.svg" height="200rem"></a>
+            <a href="https://github.com/OgnyanPetkov"><img src="images/GitHub.png" height="200rem"></a>
+            <a href="Mail.html"><img src="images/Gmail-Logo.png" height="200rem"></a>
+        </nav><br>
+            <span>Physics student,teacher and researcher with interest in coding</span>
+    </div>
+    <hr>
+    <div class="about_me">
         <h3>Education</h3>
             <ul>
                 <li>Secondary education: 164 Spanish Secondary School “Miguel de Cervantes”</li>
                 <li>Tertiary education: BSc in Physics from Sofia University</li>
             </ul>
         <h3>Work experience</h3>
-        <table>
+        <table class="center">
             <thead>
                 <th>Dates</th>
                 <th>Work</th>
@@ -53,11 +56,8 @@
             </tfoot>
         </table>
         <br>
-        <form>
-            <label>Your name:</label>
-            <input>
-        </form>
-        <br>
         <a href="Hobbies.html">My Hobbies</a>
+    </div>
+
     </body>
 </html>
