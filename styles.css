@@ -1,33 +1,56 @@
 body {
     background-image: url(geometric.jpg);
     margin: 0px;
+    font-family: Roboto, Arial, sans-serif;
     }
 
 .top_box {
-    font-family: Arial, "Noto Sans", sans-serif;
     margin: 2% 0% 2% 0%;
-    padding: 1%;
+    padding: 2%;
     background-color: #222831;
     border-radius: 30px;
-    color: #ffd369;
     text-align: center;
-    font-size: 200%;
-    overflow: hidden;
-    }
-.about_me {
-    font-family: Arial, "Noto Sans", sans-serif;
-    margin: 2% 0% 2% 0%;
-    padding: 20px;
-    background-color: #222831;
-    border-radius: 30px;
+}
+.top_box_picture {
+    width: 25vh;
+}
+.top_box_header {
     color: #ffd369;
-    text-align: center;
-    font-size: 300%;
+    font-size: 10vh;
     overflow: hidden;
 }
+.top_box_texts {
+    color: #ffd369;
+    font-size: 6vh;
+    overflow: hidden;
+}
+.about_me {
+    margin: 2% 0% 2% 0%;
+    padding: 2%;
+    background-color: #222831;
+    border-radius: 30px;
+    color: #ffd369;
+    text-align: center;
+    font-size: 5vh;
+    overflow: hidden;
+}
+
+.top_box_hobbies{
+    margin: 2% 0% 2% 0%;
+    padding: 2%;
+    background-color: #222831;
+    border-radius: 30px;
+    text-align: center;
+}
+
 ul {
     list-style-position: inside;
+    padding-inline-start: 0;
 }
+table {
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
 td, th {
     text-align: center;
 }
@@ -42,12 +65,34 @@ hr {
     border-top-style: dotted;
     border-color: #ffd369;
     border-width: 5em;
-    width: 25%;
+    width: 25vh;
     min-width: 10em;
     }
 
 h1, h2, h3 {
-    margin-top: 0;
-    color: #393e46
-    font-weight: 700;
+    margin: 0;
+   }
+label{
+    color: #ffd369;
+    font-size: 4vh;
+    overflow: hidden;
+}
+input[type=text] {
+  width: 75%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 10px solid;
+  border-color: #ffd369;
+  border-radius: 30px;
+}
+
+textarea[type=Message] {
+  width: 75%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 10px solid;
+  border-color: #ffd369;
+  border-radius: 30px;
 }
