@@ -1,83 +1,118 @@
 body {
-    background-image: url(geometric.jpg);
+    background-color: #222831;
     margin: 0px;
-    font-family: Roboto, Arial, sans-serif;
+    font-family: Sacramento, cursive;
+    box-sizing: border-box;
     }
-
-.top_box {
+h1, h2, h3 {
+    margin: 0;
+   }
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #00adb5;
+    border-width: 70px;
+    width: 33%;
+    min-width: 10rem;
+    }
+.top_sec {
+    box-sizing: border-box;
     margin: 2% 0% 2% 0%;
-    padding: 2%;
-    background-color: #222831;
-    border-radius: 30px;
+    padding: 12% 10% 12% 10%;
+    background-color: #393e46;
+    border-radius: 50px;
     text-align: center;
+    }
+.avatar {
+    width: 250px;
 }
-.top_box_picture {
-    width: 25vh;
-}
-.top_box_header {
-    color: #ffd369;
-    font-size: 10vh;
+.introduction {
+    color: #00adb5;
     overflow: hidden;
 }
-.top_box_texts {
-    color: #ffd369;
-    font-size: 6vh;
-    overflow: hidden;
+.name_header {
+    font-size: 6.875rem;
 }
-.about_me {
-    margin: 2% 0% 2% 0%;
-    padding: 2%;
-    background-color: #222831;
-    border-radius: 30px;
-    color: #ffd369;
-    text-align: center;
-    font-size: 5vh;
-    overflow: hidden;
+.header_description {
+    font-size: 3.75rem;
 }
-
-.top_box_hobbies{
+.social_pictures{
+    width: 13%;
+}
+.middle_sec {
+    box-sizing: border-box;
     margin: 2% 0% 2% 0%;
-    padding: 2%;
-    background-color: #222831;
-    border-radius: 30px;
+    padding: 5% 5% 5% 5%;
+    border-radius: 50px;
+    background-color: #393e46;
+    overflow: hidden;
     text-align: center;
 }
+.skill_sec{
+    overflow: hidden;
+}
+.skills{
+    display: flex;
+}
 
-ul {
+.skill_sec_header {
+    font-size: 3.75rem;
+    color: #00adb5;
+    margin-bottom: 2%
+}
+#skill_img{
+    flex: 20%;
+}
+.skill_img{
+    width: 250px;
+    border-radius: 50%;
+    background-color: #00adb5;
+}
+#skill_header{
+    flex: 80%;
+}
+.skill_header{
+    text-align: left;
+    font-size: 3rem;
+    color: #00adb5;
+}
+.skill_description{
+    margin-block-start: 0;
+    text-align: left;
+    font-size: 2rem;
+    color: #eeeeee;
+    white-space: wrap;
+}
+.emphasis {
+    color: #00adb5;
+}
+.ul {
     list-style-position: inside;
     padding-inline-start: 0;
 }
-table {
+.table {
+        display: inline-block;
+        box-sizing: border-box;
         border-collapse: collapse;
         table-layout: fixed;
       }
-td, th {
+.td, th {
     text-align: center;
 }
 
-table.center {
+.table.center {
     margin-left:auto;
     margin-right:auto;
   }
 
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #ffd369;
-    border-width: 5em;
-    width: 25vh;
-    min-width: 10em;
-    }
 
-h1, h2, h3 {
-    margin: 0;
-   }
-label{
+
+.label{
     color: #ffd369;
     font-size: 4vh;
     overflow: hidden;
 }
-input[type=text] {
+.input[type=text] {
   width: 75%;
   padding: 10px 20px;
   margin: 8px 0;
@@ -87,7 +122,7 @@ input[type=text] {
   border-radius: 30px;
 }
 
-textarea[type=Message] {
+.textarea[type=Message] {
   width: 75%;
   padding: 10px 20px;
   margin: 8px 0;

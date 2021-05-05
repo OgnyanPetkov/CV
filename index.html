@@ -7,26 +7,34 @@
         <link rel="icon" href="favicon.ico">
     </head>
     <body>
-    <div class="top_box">
-            <img src="images/Profile Picture.png" class="top_box_picture">
-            <h1 class="top_box_header">Ognyan Petkov</h1>
-        <span class="top_box_texts">Physics student, teacher and researcher with interest in coding</span>
+    <section class="top_sec">
+        <div class="introduction">
+            <img src="images/scientist.png" class="avatar">
+            <h1 class="name_header">I'm Ognyan Petkov.</h1>
+            <h2 class="header_description">A programming physicist</h2>
+        </div>
         <br>
-        <nav>
-            <a href="https://www.linkedin.com/in/ognyan-petkov/"><img src="images/linkedin.svg" class="top_box_picture"></a>
-            <a href="https://github.com/OgnyanPetkov"><img src="images/GitHub.png" class="top_box_picture"></a>
-            <a href="Mail.html"><img src="images/Gmail-Logo.png" class="top_box_picture"></a>
-        </nav>
-    </div>
+    </section>
     <hr>
-    <div class="about_me">
-        <h3>Education</h3>
+    <section class="middle_sec">
+        <div id="skill_sec_header"><h3 class="skill_sec_header">My skills.</h3></div>
+        <div class="skills">
+        <div id="skill_img"><img src="images/brain.png" class="skill_img"></div>
+            <div id="skill_header"><h3 class="skill_header">Programming</h3>
+            <p class="skill_description">I am a self-taught programmer. In university I've mainly used <strong class="emphasis">Fortran</strong> (for computations) and <strong class="emphasis">a bit of C++</strong> (for setting up Arduino microcontrollers).
+                I moved to <strong class="emphasis">Python</strong> where I am seasoned in <strong class="emphasis">procedural</strong> and <strong class="emphasis">object-orientated programming</strong>,
+                GUI construction with <strong class="emphasis">Tkinter</strong>. I am intermediate at <strong class="emphasis">HTML</strong> and <strong class="emphasis">CSS</strong>.
+                I have good understanding of API design and implementation, Web scraping with Beautiful Soup, Selenium, Flask, SQLite, SQLAlchemy and data analysis with Pandas.
+        </div>
+    </section>
+    <section class="skill_sec">
+        <h3 class="section_description">Education</h3>
             <ul>
                 <li>Secondary education: 164 Spanish Secondary School “Miguel de Cervantes”</li>
                 <li>Tertiary education: BSc in Physics from Sofia University</li>
             </ul>
         <h3>Work experience</h3>
-        <table class="center">
+         <table class="center">
             <thead>
                 <th>Dates</th>
                 <th>Work</th>
@@ -58,7 +66,11 @@
         </table>
         <br>
         <a href="Hobbies.html">My Hobbies</a>
-    </div>
-
+    </section>
+<nav>
+            <a href="https://www.linkedin.com/in/ognyan-petkov/"><img src="images/linkedin.svg" class="social_pictures"></a>
+            <a href="https://github.com/OgnyanPetkov"><img src="images/GitHub.png" class="social_pictures"></a>
+            <a href="Mail.html"><img src="images/Gmail-Logo.png" class="social_pictures"></a>
+        </nav>
     </body>
 </html>
