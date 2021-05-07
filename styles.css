@@ -39,7 +39,7 @@ hr {
 .social_pictures{
     width: 13%;
 }
-.middle_sec {
+.mid_sec {
     box-sizing: border-box;
     margin: 2% 0% 2% 0%;
     padding: 5% 5% 5% 5%;
@@ -53,6 +53,7 @@ hr {
 }
 .skills{
     display: flex;
+    flex-direction: column;
 }
 
 .skill_sec_header {
@@ -60,7 +61,7 @@ hr {
     color: #00adb5;
     margin-bottom: 2%
 }
-#skill_img{
+#programming_img{
     flex: 20%;
 }
 .skill_img{
@@ -68,7 +69,7 @@ hr {
     border-radius: 50%;
     background-color: #00adb5;
 }
-#skill_header{
+#programming_header{
     flex: 80%;
 }
 .skill_header{
@@ -76,12 +77,30 @@ hr {
     font-size: 3rem;
     color: #00adb5;
 }
+.single_skill{
+    display: flex;
+}
 .skill_description{
     margin-block-start: 0;
     text-align: left;
     font-size: 2rem;
     color: #eeeeee;
     white-space: wrap;
+    text-align: justify;
+}
+.project_description{
+    margin-block-start: 0;
+    text-align: left;
+    font-size: 2rem;
+    color: #eeeeee;
+    white-space: wrap;
+    text-align: justify;
+}
+#communication_img{
+    flex: 20%;
+}
+#communication_header{
+    flex: 80%;
 }
 .emphasis {
     color: #00adb5;
