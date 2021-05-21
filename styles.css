@@ -15,6 +15,34 @@ hr {
     width: 33%;
     min-width: 10rem;
     }
+.dropbtn {
+  background-color: #00adb5;
+  border-radius: 25%;
+  color: #eeeeee;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: fixed;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #222831;
+  text-align: center
+}
+.dropdown-content a {
+  color: #00adb5;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color:#393e46;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {opacity: 0.9;}
+
 .top_sec {
     box-sizing: border-box;
     margin: 2% 0% 2% 0%;
@@ -37,12 +65,25 @@ hr {
     font-size: 3.75rem;
 }
 .social_pictures{
-    width: 13%;
+    width: 5rem;
+    padding: 1rem;
 }
+.social_pictures:hover{
+    opacity: 0.5;
+    }
 .mid_sec {
     box-sizing: border-box;
     margin: 2% 0% 2% 0%;
     padding: 5% 5% 5% 5%;
+    border-radius: 50px;
+    background-color: #393e46;
+    overflow: hidden;
+    text-align: center;
+}
+.footer_sec{
+    box-sizing: border-box;
+    margin: 2% 0% 2% 0%;
+    padding: 1% 1% 1% 1%;
     border-radius: 50px;
     background-color: #393e46;
     overflow: hidden;
@@ -56,7 +97,7 @@ hr {
     flex-direction: column;
 }
 
-.skill_sec_header {
+.sec_header {
     font-size: 3.75rem;
     color: #00adb5;
     margin-bottom: 2%
@@ -72,10 +113,16 @@ hr {
 #programming_header{
     flex: 80%;
 }
-.skill_header{
+.headers{
     text-align: left;
     font-size: 3rem;
     color: #00adb5;
+}
+.headers_centered{
+    text-align: left;
+    font-size: 3rem;
+    color: #00adb5;
+    text-align: center
 }
 .single_skill{
     display: flex;
@@ -95,6 +142,13 @@ hr {
     color: #eeeeee;
     white-space: wrap;
     text-align: justify;
+}
+.list_content{
+    margin-block-start: 0;
+    text-align: center;
+    font-size: 2rem;
+    color: #eeeeee;
+    white-space: wrap;
 }
 #communication_img{
     flex: 20%;
@@ -119,7 +173,7 @@ hr {
     text-align: center;
 }
 
-.table.center {
+.center {
     margin-left:auto;
     margin-right:auto;
   }

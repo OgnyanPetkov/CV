@@ -7,7 +7,17 @@
         <link rel="icon" href="favicon.ico">
     </head>
     <body>
-    <section class="top_sec">
+    <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+            <a href="#Intro">Intro</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#CV">CV</a>
+            <a href="#Socials">Socials</a>
+        </div>
+    </div>
+    <section class="top_sec" id="Intro">
         <div class="introduction">
             <img src="images/scientist.png" class="avatar">
             <h1 class="name_header">I'm Ognyan Petkov.</h1>
@@ -16,12 +26,12 @@
         <br>
     </section>
     <hr>
-    <section class="mid_sec">
-        <div id="skill_sec_header"><h3 class="skill_sec_header">My skills.</h3></div>
+    <section class="mid_sec" id="Skills">
+        <div id="skill_sec_header"><h3 class="sec_header">My skills.</h3></div>
         <div class="skills">
             <div class="single_skill">
                 <div id="programming_img"><img src="images/brain.png" class="skill_img"></div>
-                <div id="programming_header"><h3 class="skill_header">Programming</h3>
+                <div id="programming_header"><h3 class="headers">Programming</h3>
                 <p class="skill_description">I am a self-taught programmer. In university I've mainly used <strong class="emphasis">Fortran</strong> (for computations) and <strong class="emphasis">a bit of C++</strong> (for setting up Arduino microcontrollers).
                     I moved to <strong class="emphasis">Python</strong> where I am seasoned in <strong class="emphasis">procedural</strong> and <strong class="emphasis">object-orientated programming</strong>,
                     GUI construction with <strong class="emphasis">Tkinter</strong>. I am intermediate at <strong class="emphasis">HTML</strong> and <strong class="emphasis">CSS</strong>.
@@ -30,7 +40,7 @@
             </div>
             <div class="single_skill">
                 <div id="communication_img"><img src="images/communication.png" class="skill_img"></div>
-                <div id="communication_header"><h3 class="skill_header">Interpersonal skills </h3>
+                <div id="communication_header"><h3 class="headers">Interpersonal skills </h3>
                 <p class="skill_description">I've developed great communication skills in dynamic and multicultural environment.
                     I've participated in multiple international Erasmus+ projects and scientific conferences.
                     Throughout my teacher and tour guide qualifications I've refined my individualized approach.
@@ -39,11 +49,11 @@
         </div>
     </section>
     <hr>
-    <section class="mid_sec">
-        <div id="project_sec_header"><h3 class="skill_sec_header">My projects.</h3></div>
+    <section class="mid_sec" id="Projects">
+        <div id="project_sec_header"><h3 class="sec_header">My projects.</h3></div>
         <div class="skills">
             <div class="single_skill">
-                <div id="programming_header"><h3 class="skill_header">Project 1</h3>
+                <div id="programming_header"><h3 class="headers">Project 1</h3>
                 <p class="project_description">dwawdawdadwadwdaw
                 </div>
                 <div id="programming_img"><img src="images/brain.png" class="skill_img"></div>
@@ -51,7 +61,7 @@
             </div>
             <div class="single_skill">
 
-                <div id="communication_header"><h3 class="skill_header">Project 2 </h3>
+                <div id="communication_header"><h3 class="headers">Project 2 </h3>
                 <p class="project_description">dwadwadwadawadw
                 </div>
                 <div id="communication_img"><img src="images/communication.png" class="skill_img"></div>
@@ -59,19 +69,19 @@
             </div>
         </div>
     </section>
-    <section class="skill_sec">
-        <h3 class="section_description">Education</h3>
-            <ul>
-                <li>Secondary education: 164 Spanish Secondary School “Miguel de Cervantes”</li>
-                <li>Tertiary education: BSc in Physics from Sofia University</li>
-            </ul>
-        <h3>Work experience</h3>
+    <hr>
+    <section class="mid_sec" id="CV">
+        <div><h3 class="sec_header">Education and work experience</h3></div>
+         <h3 class="headers_centered">Education</h3>
+                <li class="list_content">Secondary education: 164 Spanish Secondary School “Miguel de Cervantes”</li>
+                <li class="list_content">Tertiary education: BSc in Physics from Sofia University</li>
+        <h3 class="headers_centered">Work experience</h3>
          <table class="center">
-            <thead>
+            <thead class="list_content">
                 <th>Dates</th>
                 <th>Work</th>
             </thead>
-            <tbody>
+            <tbody class="list_content">
                 <tr>
                     <td>May 2017 – January 2018</td>
                     <td>Waiter at Bodega Ranchero Steakhouse</td>
@@ -97,12 +107,14 @@
             </tfoot>
         </table>
         <br>
-        <a href="Hobbies.html">My Hobbies</a>
     </section>
-<nav>
+    <section class="footer_sec" id="Socials">
+        <nav>
             <a href="https://www.linkedin.com/in/ognyan-petkov/"><img src="images/linkedin.svg" class="social_pictures"></a>
             <a href="https://github.com/OgnyanPetkov"><img src="images/GitHub.png" class="social_pictures"></a>
             <a href="Mail.html"><img src="images/Gmail-Logo.png" class="social_pictures"></a>
         </nav>
+    </section>
+
     </body>
 </html>
