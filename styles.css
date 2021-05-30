@@ -179,28 +179,39 @@ hr {
   }
 
 
-
-.label{
-    color: #ffd369;
+label {
+    color: #eeeeee;
     font-size: 4vh;
     overflow: hidden;
 }
-.input[type=text] {
-  width: 75%;
-  padding: 10px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 10px solid;
-  border-color: #ffd369;
-  border-radius: 30px;
-}
 
-.textarea[type=Message] {
-  width: 75%;
-  padding: 10px 20px;
-  margin: 8px 0;
+.contact_form{
+  position: relative;
+  border-radius: 50px;
+  background: #393e46;
+  padding:50px;
+  width: 600px;
+  margin: 20px auto 0 auto;
+  box-shadow: 0 2px 4px rgba(100,100,100,.1);
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   box-sizing: border-box;
-  border: 10px solid;
-  border-color: #ffd369;
-  border-radius: 30px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+input[type=submit] {
+  background-color: #4e89ae;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #43658b;
 }
