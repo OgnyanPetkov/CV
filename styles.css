@@ -116,6 +116,16 @@ hr {
     border-radius: 50%;
     background-color: #00adb5;
 }
+.skill_img_linked{
+    width: 250px;
+    border-radius: 50%;
+    background-color: #00adb5;
+}
+
+.skill_img_linked:hover{
+background-color:#FFCA55;
+}
+
 #programming_header{
     flex: 80%;
 }
@@ -136,15 +146,7 @@ hr {
 .single_skill{
     display: flex;
 }
-.skill_description{
-    margin-block-start: 0;
-    text-align: left;
-    font-size: 2rem;
-    color: #eeeeee;
-    white-space: wrap;
-    text-align: justify;
-}
-.project_description{
+.description{
     margin-block-start: 0;
     text-align: left;
     font-size: 2rem;
@@ -154,11 +156,22 @@ hr {
 }
 .list_content{
     margin-block-start: 0;
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
     color: #eeeeee;
     white-space: wrap;
+    text-align: justify;
 }
+.description_centered{
+    margin-block-start: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 2rem;
+    color: #eeeeee;
+    white-space: wrap;
+    text-align: center;
+}
+
 #communication_img{
     flex: 20%;
 }
