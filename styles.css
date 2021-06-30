@@ -105,12 +105,18 @@ hr {
 #programming_img{
     flex: 20%;
 }
+#project_1_img{
+    flex: 20%;
+}
 .skill_img{
     width: 250px;
     border-radius: 50%;
     background-color: #00adb5;
 }
 #programming_header{
+    flex: 80%;
+}
+.project_header{
     flex: 80%;
 }
 .headers{
