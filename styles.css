@@ -154,14 +154,7 @@ background-color:#FFCA55;
     white-space: wrap;
     text-align: justify;
 }
-.list_content{
-    margin-block-start: 0;
-    text-align: left;
-    font-size: 2rem;
-    color: #eeeeee;
-    white-space: wrap;
-    text-align: justify;
-}
+
 .description_centered{
     margin-block-start: 0;
     margin: 0;
